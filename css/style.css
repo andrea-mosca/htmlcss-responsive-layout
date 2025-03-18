@@ -80,8 +80,38 @@ main{
     padding: 5px 0;
 }
 
+/* social section  */
+#social{
+    padding-top: 30px;
+}
+.social-box{
+    display: flex;
+    justify-content: space-between;
+}
 
+.logo-div{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 10px;
+}
 
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: #d93f6d;
+}
+.fa-pinterest{
+    color: red;
+}
+.fa-youtube{
+    color: red;
+}
+.social-box span{
+    display: none;
+}
 
 
 
@@ -104,6 +134,10 @@ footer{
         display: inline-block;
         width: 30%;
     }
+    .logo-div{
+        flex-grow: 1;
+    }
+
 }
 @media screen and (min-width: 992px) {
     .card{
@@ -112,5 +146,8 @@ footer{
     .card-content li{
         display: list-item;
         width: 100%;
+    }
+    .social-box span{
+        display: inline-block;
     }
 }
