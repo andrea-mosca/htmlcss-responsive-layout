@@ -42,6 +42,9 @@ ul{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
+.pad-bottom{
+    
+}
 
 /* HEADER  */
 #header-title{
@@ -117,7 +120,22 @@ main{
     display: none;
     padding: 20px 0;
 }
+/* presentation section  */
 
+.raw-divisor{
+    width: 90px;
+    height: 1px;
+    border: 1px solid orange;
+    
+}
+.clearfix{
+    padding: 20px 0;
+}
+.clearfix img{
+    padding: 20px;   /*centrare l'immagine*/
+    width: 250px;
+    height: 200px;
+}
 
 
 /* FOOTER  */
@@ -145,6 +163,16 @@ footer{
     #banner{
         display: block;
     }
+    .clearfix::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .clearfix img{
+        float: left;
+    }
+
+
 
 }
 @media screen and (min-width: 992px) {
