@@ -110,7 +110,7 @@ footer{
         display: flex;
     }
     .card-content li{
-        
-        
+        display: list-item;
+        width: 100%;
     }
 }
