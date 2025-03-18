@@ -130,9 +130,11 @@ main{
 }
 
 .clearfix img{
-       
-    width: 250px;
-    height: 200px;
+    max-width: 250px;
+    max-height: 200px;
+}
+.presentation-img{
+    text-align: center;
 }
 
 
@@ -170,23 +172,9 @@ footer{
         display: inline-block;
         width: 30%;
     }
-    .logo-div{
-        flex-grow: 1;
-    }
     #banner{
         display: block;
     }
-    .clearfix::after{
-        content: '';
-        display: table;
-        clear: both;
-    }
-    .clearfix img{
-        float: left;
-    }
-
-
-
 }
 @media screen and (min-width: 992px) {
     .container{
@@ -207,6 +195,7 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         text-align: start;
+        align-items: center;
     }
 }
 /* BONUS */
@@ -218,6 +207,8 @@ footer{
     }
     .clearfix img{
         float: left;
+            margin-right: 10px;
+            margin-bottom: 3px;
     }
     .logo-div{
         flex-grow: 1;
