@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 }
 img{
     max-width: 100%;
@@ -28,8 +28,8 @@ ul{
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .row{
     display: flex;
@@ -55,6 +55,35 @@ ul{
 main{
     background-color: #f6f5f3;
 }
+#food-type{
+    color: lightgray;
+    padding: 10px 0;
+}
+#dish-title{
+    display: inline-block;
+}
+#dish-subtitle{
+    display: none;
+}
+/* video tutorial section  */
+.card-content h3{
+    padding-bottom: 20px;
+}
+.card{
+    background-color: white;
+    margin-top: 20px;
+}
+.card-content{
+    padding: 20px;
+}
+.card-content li{
+    padding: 5px 0;
+}
+
+
+
+
+
 
 /* FOOTER  */
 footer{
@@ -67,5 +96,21 @@ footer{
 @media screen and (min-width: 768px) {
     #header-title{
         text-align: left;
+    }
+    #dish-subtitle{
+        display: inline-block;
+    }
+    .card-content li{
+        display: inline-block;
+        width: 30%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .card{
+        display: flex;
+    }
+    .card-content li{
+        
+        
     }
 }
