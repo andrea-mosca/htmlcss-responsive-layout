@@ -47,7 +47,8 @@ ul{
 #header-title{
     font-family: 'Nerko One',cursive;
     color: #ff9614;
-
+    text-align: center;
+    padding: 10px;
 }
 
 /* MAIN  */
@@ -59,4 +60,12 @@ main{
 footer{
     background-color: #7c69a4;
     color: white;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    #header-title{
+        text-align: left;
+    }
 }
