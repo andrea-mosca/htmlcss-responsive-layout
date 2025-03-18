@@ -112,6 +112,11 @@ main{
 .social-box span{
     display: none;
 }
+/* banner section  */
+#banner{
+    display: none;
+    padding: 20px 0;
+}
 
 
 
@@ -136,6 +141,9 @@ footer{
     }
     .logo-div{
         flex-grow: 1;
+    }
+    #banner{
+        display: block;
     }
 
 }
